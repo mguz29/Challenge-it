@@ -34,7 +34,6 @@ export default function Footer() {
                         <li>AYUDA</li>
                         <li>CÓMO COMPRAR</li>
                         <li>TÉRMINOS Y CONDICIONES</li>
-
                     </ul>
                 </div>
 
@@ -51,8 +50,6 @@ export default function Footer() {
                         <img src={escudo} />
                         <p className='p-Compra'>COMPRÁ CON <br /> LA GARANTIA <br /> DE PUFFI</p>
                     </div>
-
-
                 </div>
 
                 <divisor className="cntLine2">
@@ -78,7 +75,6 @@ export default function Footer() {
             <div className='P-Copyright'>
                 <p>PUFI Copyright 2017 - Todos los derechos reservados</p>
             </div>
-
 
         </div>
     )

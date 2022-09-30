@@ -16,29 +16,29 @@ export default function Collage() {
             </div>
             <div className='ImagenesCollage'>
 
-            <div className="fila">
-                <div className="columna">
-                <img className='ImageCollage' src={banner} alt='Paraguas' />
+                <div className="fila">
+                    <div className="columna">
+                        <img className='ImageCollage' src={banner} alt='Paraguas' />
+                    </div>
+                    <div className="columna">
+                        <img className='ImageCollage' src={BagKids} alt='Paraguas' />
+                    </div>
+                    <div className="columna">
+                        <img className='ImageCollage' src={bagpuff} alt='Paraguas' />
+                    </div>
                 </div>
-                <div className="columna">
-                    <img className='ImageCollage' src={BagKids} alt='Paraguas' />
-                </div>
-                <div className="columna">
-                    <img className='ImageCollage' src={bagpuff} alt='Paraguas' />
-                </div>
-            </div>
-            <div className="fila">
-                <div className="columna">
-                <img className='ImageCollage' src={puffBanner} alt='Paraguas' />
-                </div >
-                <div className="columna">
-                    <img className='ImageCollage' src={AlmohadaBanner} alt='Paraguas' />
-                </div>
-                <div className="columna">
-                    <img className='ImageCollage' src={persona} alt='Paraguas' />
-                </div>
+                <div className="fila">
+                    <div className="columna">
+                        <img className='ImageCollage' src={puffBanner} alt='Paraguas' />
+                    </div >
+                    <div className="columna">
+                        <img className='ImageCollage' src={AlmohadaBanner} alt='Paraguas' />
+                    </div>
+                    <div className="columna">
+                        <img className='ImageCollage' src={persona} alt='Paraguas' />
+                    </div>
 
-            </div>
+                </div>
             </div>
 
         </div>

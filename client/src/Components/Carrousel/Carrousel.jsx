@@ -6,8 +6,6 @@ import Shopbag from "./img/shopping-bag.png"
 import sombrilla from "./img/sombrilla-de-playa.png"
 import bag from "./img/bean-bag.png"
 import almohada from "./img/almohada.png"
-// import style from "./carrousel.module.css"
-// import "./carrousel.css"
 
 
 function IndividualIntervalsExample() {
@@ -54,25 +52,22 @@ function IndividualIntervalsExample() {
                 <p className='pNav'> PUFI NAP </p>
               </div>
             </div>
-            <div className='DivAccount'>
-                <select className='SelectAccount'>
-              <option>Mi cuenta</option>
-            </select>
 
-            <divisor className="cntLine1">
+            <div className='DivAccount'>
+              <select className='SelectAccount'>
+                <option>Mi cuenta</option>
+              </select>
+
+              <divisor className="cntLine1">
                 <div className="line1">
                 </div>
               </divisor>
-
-            <p className='SelectAccount'>Mi Compra</p>
+              <p className='SelectAccount'>Mi Compra</p>
             </div>
-          
+
           </div>
-
-
           <h1 className='frase'>ESTÁR CÓMODO NUNCA FUE TAN FÁCIL.</h1>
           <button className="buttonShop">Shop</button>
-
         </Carousel.Caption>
         <img
           className="img"

@@ -42,26 +42,23 @@ export default function Newsletter() {
 
   async function handleSubmit(e) {
     e.preventDefault();
-    if (Object.keys(errors).length === 0 && input.email){
+    if (Object.keys(errors).length === 0 && input.email) {
       Swal.fire({
         icon: 'success',
         title: 'Suscrito',
         showConfirmButton: false,
         timer: 1500
       })
-    setInput({
-      email: ""
-    })
-  }else{
-    Swal.fire({
-      icon: 'error',
-      title: 'Oops...',
-      text: 'Completa el formulario correctamente!',
-    })
-  }
-    // dispatch(postPokemon(input))
-    // history.push('/Home')
-    console.log(input)
+      setInput({
+        email: ""
+      })
+    } else {
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Completa el formulario correctamente!',
+      })
+    }
   }
 
   return (
@@ -72,7 +69,7 @@ export default function Newsletter() {
         <p className='NewsletterPd'>Y enterate de todas las novedades</p>
       </div>
 
-<div className='DivFormulario'>
+      <div className='DivFormulario'>
 
         <form className='Formulario' onSubmit={e => handleSubmit(e)}>
           <div>
@@ -89,7 +86,7 @@ export default function Newsletter() {
           <button type='submit' className='ButtonSubmit'> <img src={img} alt='Not Found' /> </button>
         </form>
         {errors.email && <p className="error">{errors.email}</p>}
-</div>
+      </div>
 
     </div>
   )

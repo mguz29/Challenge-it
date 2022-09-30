@@ -7,12 +7,12 @@ import Collage from '../Collage/Collage'
 
 export default function Home() {
   return (
-    <div> 
-      <IndividualIntervalsExample/>
-      <Products/>
-      <Collage/>
-      <Newsletter/>
-      <Footer/>
+    <div>
+      <IndividualIntervalsExample />
+      <Products />
+      <Collage />
+      <Newsletter />
+      <Footer />
     </div>
   )
 }
