@@ -70,7 +70,7 @@ function IndividualIntervalsExample() {
           </div>
 
 
-          <h1 className='frase'>Estar Comodo Nunca Fue Tan Facil</h1>
+          <h1 className='frase'>ESTÁR CÓMODO NUNCA FUE TAN FÁCIL.</h1>
           <button className="buttonShop">Shop</button>
 
         </Carousel.Caption>

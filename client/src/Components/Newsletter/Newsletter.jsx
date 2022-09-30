@@ -14,9 +14,9 @@ export default function Newsletter() {
     let errors = {};
 
     if (!input.email) {
-      errors.email = "A Email is required";
+      errors.email = "EL Email es requerido";
     } else if (!/^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i.test(input.email)) {
-      errors.email = "EMAIL IS INVALID";
+      errors.email = "Email is invalid";
     }
     return errors;
   }
