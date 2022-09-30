@@ -99,6 +99,9 @@
   background-color: transparent;
   border: none;
 }
+.A-Ref {
+  text-decoration: none;
+}
 .productUmbrella {
   display: flex;
   justify-content: space-evenly;

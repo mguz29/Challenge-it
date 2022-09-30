@@ -11,14 +11,14 @@ import AlmohadaBanner from "../../Img/Almohada.png"
 export default function Products() {
     return (
         <div>
-            <div className="productUmbrella">
+            <div className="productUmbrella" id='RAIN'>
 
                 <div className='DivProduct'>
                  <img className='imageProducts' src={banner} alt='not found' /> 
                 <button className='ButtonShop'>Shop</button>
                 </div>
 
-                <div className='DivUmbrella'>
+                <div className='DivUmbrella' >
                       <img className='imageUmbrella' src={umbrella} alt='not found' />
                       <h2>Puffi RAIN</h2>
                       <div></div>
@@ -28,9 +28,9 @@ export default function Products() {
               
             </div>
 
-            <div className="productUmbrella">
+            <div className="productUmbrella" id='PUFF'>
 
-                <div className='DivUmbrella'>
+                <div className='DivUmbrella' >
                       <img className='imagePuff' src={puff} alt='not found' />
                       <h2>Puffi PUFF</h2>
                       <div></div>
@@ -45,14 +45,14 @@ export default function Products() {
               
             </div>
 
-            <div className="productUmbrella">
+            <div className="productUmbrella" id='CART'>
 
                 <div className='DivProduct'>
                  <img className='imageProducts' src={BagKids} alt='not found' /> 
                 {/* <button className='ButtonShop'>Shop</button> */}
                 </div>
 
-                <div className='DivUmbrella'>
+                <div className='DivUmbrella' >
                       <img className='imageUmbrella' src={Bag} alt='not found' />
                       <h2>Puffi CART</h2>
                       <div></div>
@@ -62,9 +62,9 @@ export default function Products() {
               
             </div>
 
-            <div className="productUmbrella">
+            <div className="productUmbrella" id='NAP'>
 
-                <div className='DivUmbrella'>
+                <div className='DivUmbrella' >
                       <img className='imageAlmohada' src={Almohada} alt='not found' />
                       <h2>Puffi NAP</h2>
                       <div></div>

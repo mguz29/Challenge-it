@@ -17,9 +17,12 @@ function IndividualIntervalsExample() {
             <h3 className='header'>Pufi</h3>
             <div className="puffis">
 
-              <div className="puff">
+              <div className="puff" href='#PUFI PUFF'>
+                <a className='A-Ref' href="#PUFF">
                 <img src={bag} alt='Not Found' />
-                <p className='pNav'> PUFI PUFF </p>
+                  <p className='pNav'> PUFI PUFF </p>
+                </a>
+
               </div>
 
               <divisor className="cntLine">
@@ -27,9 +30,12 @@ function IndividualIntervalsExample() {
                 </div>
               </divisor>
 
-              <div className="puff">
+              <div className="puff" href='#PUFI RAIN'>
+                <a  className='A-Ref' href='#RAIN'>
                 <img src={sombrilla} alt='Not Found' />
-                <p className='pNav'> PUFI RAIN </p>
+                  <p className='pNav'> PUFI RAIN </p>
+                </a>
+
               </div>
 
               <divisor lassName="cntLine">
@@ -37,9 +43,12 @@ function IndividualIntervalsExample() {
                 </div>
               </divisor>
 
-              <div className="puff">
+              <div className="puff" >
+                <a  className='A-Ref' href='#CART'>
                 <img src={Shopbag} alt='Not Found' />
-                <p className='pNav'> PUFI CART </p>
+                  <p className='pNav'> PUFI CART </p>
+                </a>
+
               </div>
 
               <divisor className="cntLine">
@@ -47,9 +56,12 @@ function IndividualIntervalsExample() {
                 </div>
               </divisor>
 
-              <div className="puff">
+              <div className="puff" href='#PUFI NAP'>
+                <a className='A-Ref' href='#NAP'>
                 <img src={almohada} alt='Not Found' />
-                <p className='pNav'> PUFI NAP </p>
+                  <p className='pNav'> PUFI NAP </p>
+                </a>
+
               </div>
             </div>
 
