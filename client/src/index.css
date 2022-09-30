@@ -156,7 +156,8 @@
 }
 .DivUmbrella h5 {
   color: gray;
-  margin: 20px;
+  margin: 15px;
+  font-size: small;
 }
 .DivUmbrella p {
   font-size: small;
@@ -287,6 +288,13 @@
   font-size: small;
   color: gray;
 }
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVuEooCP.ttf) format('truetype');
+}
 .ConatinerCollage {
   margin: 40px 0px 40px 4px;
   display: flex;
@@ -315,4 +323,5 @@
 .ESPUFI {
   font-weight: 500;
   margin-bottom: 40%;
+  font-family: 'Raleway', sans-serif;
 }
