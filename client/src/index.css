@@ -166,9 +166,6 @@
 .DivUmbrella p {
   font-size: small;
 }
-* {
-  border: solid 1px red;
-}
 .NewsletterP {
   margin: 10px 0px 0px 0px;
   color: gray;
@@ -249,6 +246,7 @@
   display: flex;
   margin-top: 25px;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 .redes-socailes img {
   margin: 5px;
