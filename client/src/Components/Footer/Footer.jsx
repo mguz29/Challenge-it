@@ -59,9 +59,11 @@ export default function Footer() {
 
                 <div className='redes-socailes'>
                     <p>SEGUINOS EN </p>
-                    <img src={facebook} className='red-social' />
+                    <div>
+                         <img src={facebook} className='red-social' />
                     <img src={twitter} className='red-social' />
-                    <img src={instagram} className='red-social' />
+                    <img src={instagram} className='red-social' /> 
+                    </div>
                 </div>
                 <hr></hr>
 
